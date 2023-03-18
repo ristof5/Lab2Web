@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Biodata</title>
+    <style>
+        * {
+
+            font-family: 'Open Sans MS', 'Roboto Mono';
+        }
+
+        body {
+            background-color: #006a50;
+        }
+
+        .container {
+            text-align: center;
+            margin-top: 100px;
+        }
+
+        h1,
+        label {
+            color: black;
+        }
+
+        h1 {
+            font-size: 40px ;
+        }
+
+
+        label {
+            font-size: 30px;
+        }
+
+        .name {
+            margin: auto;
+            display: block;
+            text-align: center;
+            width: 15%;
+            height: 8%;
+        }
+
+        .date {
+            margin: auto;
+            display: block;
+            text-align: center;
+            width: 15%;
+            height: 8%
+        }
+
+        .pekerjaan {
+            margin: auto;
+            display: block;
+            text-align: center;
+            width: 15%;
+            height: 8%
+        }
+
+        .gaji {
+            margin: auto;
+            display: block;
+            text-align: center;
+            width: 15%;
+            height: 8%
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <form action="koneksi.php" method="POST">
+            <h1>Biodata</h1>
+            <label for="name">Nama:</label><br>
+            <input class="name" type="text" name="name" placeholder="nama" />
+            <label for="date">Tanggal Lahir:</label><br>
+            <input class="date" type="text" name="tanggal" placeholder="tanggal" />
+            <label>Pekerjaan</label><br>
+            <input class="pekerjaan" type="text" name="pekerjaan" placeholder="pekerjaan" />
+            <label>Gaji</label><br>
+            <input class="gaji" type="text" name="gaji" placeholder="gaji" />
+            <input type="submit" name="submit" value="SUBMIT" />
+        </form>
+    </div>
+</body>
+
+</html>
