@@ -31,7 +31,7 @@ Hasilnya
 ![Screenshot (46)](https://user-images.githubusercontent.com/116700466/224977314-0956c9aa-38d0-4960-b5fe-2f53c94d4c58.png)
 
 Selanjutnya saya membuat web yang bisa menampilkan nama, umur, pekerjaan pengguna. Bila mana user menginputnya.
-yang pertama saya membuat tampilan inputnya lewat file biodata.html
+yang pertama saya membuat tampilan input melalui file biodata.html
 ![image](https://user-images.githubusercontent.com/116700466/226112423-8e0a7ea4-f51f-42ac-b23e-9edb1a6d3aec.png)
 
 ![image](https://user-images.githubusercontent.com/116700466/226112580-80c07e92-f14d-4728-adcf-de723aef1dfd.png)
@@ -39,7 +39,7 @@ yang pertama saya membuat tampilan inputnya lewat file biodata.html
 membuat tampilan input
 ![image](https://user-images.githubusercontent.com/116700466/226112606-3977b37d-964c-46b3-b9f9-b4edca4f941d.png)
 
-Selanjutnya saya membuat file koneksi.php untuk memanggil inputan dari file sebelumnya
+Selanjutnya saya membuat file koneksi.php untuk menampilkan hasil inputan dari file sebelumnya
 ![image](https://user-images.githubusercontent.com/116700466/226112669-2ac05ace-8678-418d-8616-2a53f2f58f95.png)
 
 ![image](https://user-images.githubusercontent.com/116700466/226112679-2925ff4b-9d42-43eb-956e-1debe0a46ef7.png)
